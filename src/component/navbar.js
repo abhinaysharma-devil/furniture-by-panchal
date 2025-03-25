@@ -32,21 +32,21 @@ export const Header = () => {
               <Link className="nav-link" to="/contact-us">Contact US</Link>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/home" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 {serviceState.map((item, index) => {
                   return (
                     <>
-                      <a className="dropdown-item" key={index} onClick={() => { gotoServices(item) }}>{item.service_title}</a>
+                      <a className="dropdown-item" href="/home" key={index} onClick={() => { gotoServices(item) }}>{item.service_title}</a>
                     </>
                   )
                 })}
               </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="#">About Us</a>
+              <a className="nav-link disabled" href="/home">About Us</a>
             </li>
           </ul>
 

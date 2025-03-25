@@ -10,7 +10,7 @@ export const ServiceDetail = () => {
                 <h1>{location.state.data.service_title}</h1> 
                 <hr style={{ margin: "auto", padding: "10px" }} />
                 <div className="service-div">
-                    <img src={p+location.state.data.img_name} style={{ width: "500px" }} />
+                    <img src={p+location.state.data.img_name} alt="" style={{ width: "500px" }} />
                     <div className="text-item">
                         <h2>{location.state.data.service_sub_title}</h2>
                         <div dangerouslySetInnerHTML={{ __html: location.state.data.detail }}></div>

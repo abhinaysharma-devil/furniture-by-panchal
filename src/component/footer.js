@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import twitter_img from '../assests/images/bird.png';
 import fb_img from '../assests/images/fb.png';
 import insta_img from '../assests/images/insta.png';
@@ -28,13 +27,13 @@ export const Footer = () => {
                                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                                     <h6 className="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
                                     <p>
-                                        <a className="text-white">Home</a>
+                                        <a className="text-white" href='/home'>Home</a>
                                     </p>
                                     <p>
-                                        <a className="text-white">Contact US</a>
+                                        <a className="text-white" href='/home'>Contact US</a>
                                     </p>
                                     <p>
-                                        <a className="text-white">About US</a>
+                                        <a className="text-white" href='/home'>About US</a>
                                     </p>
                                 </div>
 
@@ -70,7 +69,7 @@ export const Footer = () => {
                                         return (
                                             <>
                                                 <p >
-                                                    <a href='' className="btn-class" key={index} onClick={() => { gotoServices(item) }}>{item.service_title}</a>
+                                                    <a href='/home' className="btn-class" key={index} onClick={() => { gotoServices(item) }}>{item.service_title}</a>
                                                 </p>
                                             </>
                                         )
@@ -91,9 +90,9 @@ export const Footer = () => {
                                 </div>
 
                                 <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                                    <a className="btn btn-floating m-1 text-white" role="button"><img src={twitter_img} alt="" width="20px" /></a>
-                                    <a className="btn btn-floating m-1 text-white" role="button"><img src={fb_img} alt="" width="20px" /></a>
-                                    <a className="btn btn-floating m-1 text-white" role="button"><img src={insta_img} alt="" width="20px" /></a>
+                                    <a className="btn btn-floating m-1 text-white" href='/home' role="button"><img src={twitter_img} alt="" width="20px" /></a>
+                                    <a className="btn btn-floating m-1 text-white" href='/home' role="button"><img src={fb_img} alt="" width="20px" /></a>
+                                    <a className="btn btn-floating m-1 text-white" href='/home' role="button"><img src={insta_img} alt="" width="20px" /></a>
                                 </div>
                             </div>
                         </section>
