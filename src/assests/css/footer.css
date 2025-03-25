@@ -1,0 +1,13 @@
+.btn-class:hover{
+    text-decoration: none;
+    color: var(--green-color);
+}
+.btn-class{
+    text-decoration: none;
+    color: white;
+}
+.footer-main-div {
+    /* height: -800px; */
+    position: relative;
+    top: 1rem;
+}

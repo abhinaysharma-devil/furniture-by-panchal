@@ -1,0 +1,19 @@
+#navbar-ul {
+    position: relative;
+    float: right
+}
+nav img {
+    margin-left: 7vw;
+}
+
+.first-div {  
+    justify-content : center; 
+    width : 68vw; 
+    position: relative
+}
+
+.nav-link {
+    /* border: 2px solid red; */
+    font-size: 20px;
+    margin: 0 30px;
+}

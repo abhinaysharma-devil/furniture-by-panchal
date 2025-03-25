@@ -1,0 +1,271 @@
+/*  slider css */
+body {
+    background-color: #ebebeb;
+}
+
+.top-slider {
+    font-family: "Commissioner", sans-serif;
+    background-color: #555555;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.top-slider-mail {
+    padding-left: 50px;
+    float: left;
+}
+
+.top-slider-phone {
+    padding-right: 50px;
+    float: right;
+}
+
+.categories-type-class {
+    text-align: center;
+    margin: 0 2vw 2vw 2vw;
+    position: relative;
+    top: 0;
+    transition: margin-top ease 0.5s;
+    /* border: 2px solid red; */
+}
+
+
+.categories-type-class:hover {
+    margin-top: -10px;
+}
+
+.categories-type-div-class {
+    margin: 2% 7vw;
+    background-color: #fff;
+}
+
+.categories-type-div-class h1 {
+    margin: 2vh 0 2vh 2vw;
+    padding-top: 2vh
+}
+
+/* 8888888888888888888888888888888888888 */
+/* General slider styling */
+.slider-container {
+    position: relative;
+    /* width: 600px; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-image {
+    width: 100%;
+    display: block;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* Dot navigation */
+.dots-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+/* 8888888888888888888888888888888888888 */
+
+.navbar-myclass {
+    padding-right: 50px;
+    float: right;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 290px;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 290px;
+    }
+}
+
+/* ********************* */
+
+.font-family-class {
+    font-family: "Commissioner", sans-serif;
+}
+
+.contact-items-location {
+    padding: 10px 0 0 5px;
+    border: 2px solid rgb(222, 222, 222);
+    background-color: rgb(238, 238, 238);
+    width: 40%;
+    margin: 10px 0;
+}
+
+.navbar-main-div {
+    background-color: var(--green-color);
+}
+
+.contact-icons {
+    width: 30px;
+    height: 30px;
+}
+
+.item-text {
+    padding: 0 0 0 30px;
+}
+
+.service-div {
+    display: flex;
+    margin: 0 0 10% 0;
+}
+
+.text-item {
+    padding: 0 20px;
+}
+
+#tsparticles {
+    position: absolute;
+    margin-top: 22px;
+    width: 100%;
+    height: 50vh;
+    z-index: 10;
+}
+
+.service-detail-v1 {
+    margin: 1% 15%;
+    flex-wrap: wrap;
+}
+
+.cards {
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+    margin: 0 15%;
+
+}
+
+.card-title {
+    width: 300px;
+    height: 50px;
+    background: black;
+    text-align: center;
+    color: White;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+
+.card-items {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.card-items:hover {
+    box-shadow: 0px -25px 20px -20px var(--green-color), 25px 0 20px -20px var(--green-color), 0px 25px 20px -20px var(--green-color), -25px 0 20px -20px var(--green-color);
+    top: -10px;
+}
+
+.hr-for-indi-flag {
+    margin: 2px 15%;
+}
+
+.first-add {
+    border: 2px sloid black;
+    height: 30%;
+    width: 100%;
+    background-color: #0e8201;
+}
