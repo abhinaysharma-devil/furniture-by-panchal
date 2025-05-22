@@ -1,5 +1,5 @@
 # Furniture By Panchal
-It is a static website showcasing the UI. You can check out the hosted site here: https://furniturebypanchal.com"
+It is a static website showcasing the UI. You can check out the hosted site here: https://furniturebypanchal.com
 
 ## Available Scripts
 
